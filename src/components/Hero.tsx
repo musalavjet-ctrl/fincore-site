@@ -10,7 +10,7 @@ export function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <a
-            href="mailto:sales@fincore.kz?subject=Заявка на факторинг"
+            href="mailto:sales@fincore.kz?subject=Заявка%20на%20факторинг&body=Здравствуйте!%0A%0AХотел(а)%20бы%20узнать%20подробнее%20об%20условиях%20факторинга.%0A%0AНазвание%20компании:%20%0AСфера%20деятельности:%20%0AЖелаемая%20сумма:%20%0A%0AС%20уважением,"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white text-[#1d1d1f] font-semibold px-8 py-3.5 rounded-full hover:bg-white/90 transition-colors text-sm"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -19,7 +19,7 @@ export function Hero() {
             Написать на email
           </a>
           <a
-            href="https://wa.me/77477359572?text=Здравствуйте!%20Интересует%20факторинг."
+            href="https://wa.me/77477359572?text=Здравствуйте!%20Хотел(а)%20бы%20узнать%20подробнее%20об%20условиях%20факторинга%20для%20нашей%20компании."
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#25D366] text-white font-semibold px-8 py-3.5 rounded-full hover:bg-[#20bd5a] transition-colors text-sm"

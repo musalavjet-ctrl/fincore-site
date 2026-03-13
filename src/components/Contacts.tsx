@@ -47,7 +47,7 @@ export function Contacts() {
             <p className="text-sm text-[#86868b] mb-4">Оставьте заявку — мы свяжемся с вами в течение дня</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
-                href="mailto:sales@fincore.kz?subject=Заявка на факторинг"
+                href="mailto:sales@fincore.kz?subject=Заявка%20на%20факторинг&body=Здравствуйте!%0A%0AХотел(а)%20бы%20узнать%20подробнее%20об%20условиях%20факторинга.%0A%0AНазвание%20компании:%20%0AСфера%20деятельности:%20%0AЖелаемая%20сумма:%20%0A%0AС%20уважением,"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#0071e3] text-white font-medium px-6 py-3 rounded-full hover:bg-[#0062c4] active:bg-[#0055b0] transition-colors text-sm"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -56,7 +56,7 @@ export function Contacts() {
                 Написать на email
               </a>
               <a
-                href="https://wa.me/77477359572?text=Здравствуйте!%20Интересует%20факторинг."
+                href="https://wa.me/77477359572?text=Здравствуйте!%20Хотел(а)%20бы%20узнать%20подробнее%20об%20условиях%20факторинга%20для%20нашей%20компании."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#25D366] text-white font-medium px-6 py-3 rounded-full hover:bg-[#20bd5a] active:bg-[#1caa51] transition-colors text-sm"

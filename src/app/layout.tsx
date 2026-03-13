@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin', 'cyrillic'] })
 export const metadata: Metadata = {
   title: 'FinCore — Факторинговое финансирование для бизнеса',
   description: 'FinCore.kz — факторинговое финансирование для таксопарков, доставки, e-commerce и малого бизнеса в Казахстане и Центральной Азии. Оборотные средства быстро и просто.',
-  icons: { icon: '/favicon.svg' },
+  icons: { icon: '/logo.jpg' },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
