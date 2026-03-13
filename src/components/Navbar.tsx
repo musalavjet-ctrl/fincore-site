@@ -25,7 +25,7 @@ export function Navbar() {
   const { t, lang, setLang } = useTranslation()
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[#d2d2d7]/50">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[#d2d2d7]/50" aria-label="Main">
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
           <Image src="/logo.jpg" alt="FinCore" width={28} height={28} className="rounded" />
@@ -88,13 +88,14 @@ export function Navbar() {
             onClick={() => setOpen(!open)}
             className="p-2 -mr-2 text-[#1d1d1f]"
             aria-label="Menu"
+            aria-expanded={open}
           >
             {open ? (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
             ) : (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
             )}
