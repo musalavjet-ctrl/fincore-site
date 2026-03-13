@@ -1,0 +1,55 @@
+# FinCore (FinCorKaz LLP)
+
+> Factoring finance company based in Almaty, Kazakhstan
+
+## About
+
+FinCore.kz is a fintech company specializing in factoring finance. We help businesses access working capital quickly and without complex banking procedures, offering a personalized approach and modern technology.
+
+## Services
+
+- **Express Factoring**: Amounts up to 15M KZT, terms up to 180 days, decision from 1 business day, minimal documents, standard terms.
+- **Maximum Factoring**: Amounts from 15M KZT and above, flexible terms by agreement, individual conditions, personal manager, extended analytics.
+
+## Industries We Serve
+
+- Taxi and car fleets
+- Delivery services
+- E-commerce and marketplaces
+- Auto dealers
+- Auto parts suppliers
+- Logistics and car sharing
+
+## How It Works
+
+1. Submit an application via email or WhatsApp
+2. We analyze your business and select optimal terms
+3. Sign documents (minimal paperwork)
+4. Receive financing to your account
+
+## Advantages
+
+- Fast decisions (from 1 business day)
+- Flexible terms (individual approach)
+- Transparency (no hidden fees)
+- Minimal documents
+
+## Contact
+
+- **Email**: sales@fincore.kz
+- **WhatsApp**: +7 747 735 95 72
+- **Website**: https://fincore-site.vercel.app
+
+## Legal Information
+
+- **Legal name**: FinCorKaz Limited Liability Partnership (ТОО "ФинКорКаз")
+- **BIN**: 251040009908
+- **Address**: Kazakhstan, Almaty, Alatau district, Yemtsova street, 9B
+
+## Languages
+
+This website is available in Russian (default), Kazakh, and English.
+
+## Career
+
+Open positions: https://almaty.hh.kz/employer/12464572?hhtmFrom=vacancy
