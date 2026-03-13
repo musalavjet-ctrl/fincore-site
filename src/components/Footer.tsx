@@ -1,9 +1,14 @@
+import Image from 'next/image'
+
 export function Footer() {
   return (
     <footer className="bg-[#1d1d1f] text-white/60 py-8">
-      <div className="max-w-5xl mx-auto px-4 text-center">
-        <div className="text-lg font-bold text-white mb-2">
-          Fin<span className="text-[#0071e3]">Core</span>
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+        <div className="flex items-center justify-center gap-2 mb-2">
+          <Image src="/logo.jpg" alt="FinCore" width={24} height={24} className="rounded" />
+          <span className="text-base font-bold text-white">
+            Fin<span className="text-[#0071e3]">Core</span>
+          </span>
         </div>
         <p className="text-xs">&copy; {new Date().getFullYear()} ТОО «ФинКорКаз» &middot; Алматы, Казахстан</p>
       </div>

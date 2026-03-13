@@ -59,18 +59,18 @@ const industries = [
 export function Industries() {
   return (
     <section id="industries" className="py-16 sm:py-24 bg-white">
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <h2 className="text-2xl sm:text-3xl font-bold text-[#1d1d1f] text-center mb-4">Для кого</h2>
-        <p className="text-[#86868b] text-center mb-12 max-w-xl mx-auto">
+        <p className="text-[#86868b] text-center mb-10 sm:mb-12 max-w-xl mx-auto">
           Мы работаем с компаниями из разных отраслей, предоставляя индивидуальные решения
         </p>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
           {industries.map(ind => (
-            <div key={ind.title} className="bg-[#f5f5f7] rounded-2xl p-5 sm:p-6 hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 rounded-xl bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center mb-4">
+            <div key={ind.title} className="bg-[#f5f5f7] rounded-2xl p-4 sm:p-6 hover:shadow-md transition-shadow">
+              <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center mb-3 sm:mb-4">
                 {ind.icon}
               </div>
-              <h3 className="text-sm font-semibold text-[#1d1d1f] mb-1.5">{ind.title}</h3>
+              <h3 className="text-[13px] sm:text-sm font-semibold text-[#1d1d1f] mb-1">{ind.title}</h3>
               <p className="text-xs sm:text-sm text-[#86868b] leading-relaxed">{ind.desc}</p>
             </div>
           ))}

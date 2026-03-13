@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 
 const NAV_LINKS = [
   { href: '#about', label: 'О нас' },
@@ -15,16 +16,19 @@ export function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-[#d2d2d7]/50">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[#d2d2d7]/50">
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-        <a href="#" className="text-lg font-bold text-[#1d1d1f] tracking-tight">
-          Fin<span className="text-[#0071e3]">Core</span>
+        <a href="#" className="flex items-center gap-2">
+          <Image src="/logo.jpg" alt="FinCore" width={28} height={28} className="rounded" />
+          <span className="text-lg font-bold text-[#1d1d1f] tracking-tight">
+            Fin<span className="text-[#0071e3]">Core</span>
+          </span>
         </a>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-6">
           {NAV_LINKS.map(l => (
-            <a key={l.href} href={l.href} className="text-sm text-[#1d1d1f] hover:text-[#0071e3] transition-colors">
+            <a key={l.href} href={l.href} className="text-sm text-[#424245] hover:text-[#0071e3] transition-colors">
               {l.label}
             </a>
           ))}
@@ -50,13 +54,13 @@ export function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-white border-t border-[#d2d2d7]/50 px-4 py-3 space-y-1">
+        <div className="md:hidden bg-white border-t border-[#d2d2d7]/50 px-4 py-2">
           {NAV_LINKS.map(l => (
             <a
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="block py-2 text-sm text-[#1d1d1f] hover:text-[#0071e3] transition-colors"
+              className="block py-3 text-sm text-[#424245] active:bg-[#f5f5f7] rounded-lg px-2 -mx-2 transition-colors"
             >
               {l.label}
             </a>
