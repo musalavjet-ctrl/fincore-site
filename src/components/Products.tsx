@@ -15,7 +15,6 @@ export function Products() {
         t('products.express.2'),
         t('products.express.3'),
         t('products.express.4'),
-        t('products.express.5'),
       ],
     },
     {
@@ -26,7 +25,6 @@ export function Products() {
         t('products.max.2'),
         t('products.max.3'),
         t('products.max.4'),
-        t('products.max.5'),
       ],
     },
   ]
