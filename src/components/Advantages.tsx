@@ -40,10 +40,10 @@ const advantages = [
 
 export function Advantages() {
   return (
-    <section id="advantages" className="py-16 sm:py-24 bg-white">
+    <section id="advantages" className="py-12 sm:py-16 bg-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <h2 className="text-2xl sm:text-3xl font-bold text-[#1d1d1f] text-center mb-4">Преимущества</h2>
-        <p className="text-[#86868b] text-center mb-10 sm:mb-12 max-w-xl mx-auto">
+        <p className="text-[#86868b] text-center mb-8 max-w-xl mx-auto">
           Почему бизнес выбирает FinCore
         </p>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">

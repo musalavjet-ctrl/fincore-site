@@ -25,10 +25,10 @@ const products = [
 
 export function Products() {
   return (
-    <section id="products" className="py-16 sm:py-24 bg-[#f5f5f7]">
+    <section id="products" className="py-12 sm:py-16 bg-[#f5f5f7]">
       <div className="max-w-5xl mx-auto px-4">
         <h2 className="text-2xl sm:text-3xl font-bold text-[#1d1d1f] text-center mb-4">Продукты</h2>
-        <p className="text-[#86868b] text-center mb-12 max-w-xl mx-auto">
+        <p className="text-[#86868b] text-center mb-8 max-w-xl mx-auto">
           Два формата финансирования — выберите подходящий для вашего бизнеса
         </p>
         <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
@@ -50,11 +50,11 @@ export function Products() {
         </div>
 
         {/* CTA */}
-        <div className="mt-10 text-center">
+        <div className="mt-8 text-center">
           <p className="text-sm text-[#86868b] mb-4">Не знаете, какой продукт подходит? Мы поможем разобраться</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
-              href="mailto:sales@fincore.kz?subject=Заявка%20на%20факторинг&body=Здравствуйте!%0A%0AХотел(а)%20бы%20узнать%20подробнее%20об%20условиях%20факторинга.%0A%0AНазвание%20компании:%20%0AСфера%20деятельности:%20%0AЖелаемая%20сумма:%20%0A%0AС%20уважением,"
+              href="mailto:sales@fincore.kz?subject=Заявка%20на%20факторинг&body=Здравствуйте!%0A%0AПрошу%20рассказать%20подробнее%20об%20условиях%20факторинга.%0A%0AНазвание%20компании:%20%0AСфера%20деятельности:%20%0AЖелаемая%20сумма:%20%0A%0AС%20уважением,"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#0071e3] text-white font-medium px-6 py-3 rounded-full hover:bg-[#0062c4] active:bg-[#0055b0] transition-colors text-sm"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -63,7 +63,7 @@ export function Products() {
               Написать на email
             </a>
             <a
-              href="https://wa.me/77477359572?text=Здравствуйте!%20Хотел(а)%20бы%20узнать%20подробнее%20об%20условиях%20факторинга%20для%20нашей%20компании."
+              href="https://wa.me/77477359572?text=Здравствуйте!%20Прошу%20рассказать%20подробнее%20об%20условиях%20факторинга."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#25D366] text-white font-medium px-6 py-3 rounded-full hover:bg-[#20bd5a] active:bg-[#1caa51] transition-colors text-sm"

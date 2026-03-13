@@ -23,10 +23,10 @@ const steps = [
 
 export function HowItWorks() {
   return (
-    <section id="how" className="py-16 sm:py-24 bg-[#f5f5f7]">
+    <section id="how" className="py-12 sm:py-16 bg-[#f5f5f7]">
       <div className="max-w-5xl mx-auto px-4">
         <h2 className="text-2xl sm:text-3xl font-bold text-[#1d1d1f] text-center mb-4">Как это работает</h2>
-        <p className="text-[#86868b] text-center mb-12 max-w-xl mx-auto">
+        <p className="text-[#86868b] text-center mb-8 max-w-xl mx-auto">
           Четыре простых шага от заявки до финансирования
         </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">

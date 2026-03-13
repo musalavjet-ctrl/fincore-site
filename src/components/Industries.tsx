@@ -58,10 +58,10 @@ const industries = [
 
 export function Industries() {
   return (
-    <section id="industries" className="py-16 sm:py-24 bg-white">
+    <section id="industries" className="py-12 sm:py-16 bg-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <h2 className="text-2xl sm:text-3xl font-bold text-[#1d1d1f] text-center mb-4">Для кого</h2>
-        <p className="text-[#86868b] text-center mb-10 sm:mb-12 max-w-xl mx-auto">
+        <p className="text-[#86868b] text-center mb-8 max-w-xl mx-auto">
           Мы работаем с компаниями из разных отраслей, предоставляя индивидуальные решения
         </p>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
