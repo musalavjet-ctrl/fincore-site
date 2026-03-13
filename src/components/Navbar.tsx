@@ -17,7 +17,7 @@ const NAV_KEYS: { href: string; key: string }[] = [
 const LANGS: { code: Lang; label: string }[] = [
   { code: 'ru', label: 'RU' },
   { code: 'kk', label: 'ҚЗ' },
-  { code: 'en', label: 'EN' },
+  // { code: 'en', label: 'EN' },
 ]
 
 export function Navbar() {

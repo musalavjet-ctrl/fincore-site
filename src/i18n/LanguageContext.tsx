@@ -19,10 +19,11 @@ const LanguageContext = createContext<LanguageContextType>({
 function detectLang(): Lang {
   if (typeof window === 'undefined') return 'ru'
   const stored = localStorage.getItem('lang')
-  if (stored === 'ru' || stored === 'kk' || stored === 'en') return stored
+  if (stored === 'ru' || stored === 'kk') return stored
+  // if (stored === 'en') return stored  // EN disabled for now
   const nav = navigator.language.toLowerCase()
   if (nav.startsWith('kk')) return 'kk'
-  if (nav.startsWith('en')) return 'en'
+  // if (nav.startsWith('en')) return 'en'  // EN disabled for now
   return 'ru'
 }
 

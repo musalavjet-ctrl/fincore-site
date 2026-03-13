@@ -38,13 +38,13 @@ export function Contacts() {
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
                 <div className="text-[11px] sm:text-xs uppercase tracking-wider text-[#86868b] mb-0.5">Email</div>
-                <a href="mailto:sales@fincore.kz" className="text-sm sm:text-base font-medium text-[#0071e3] hover:underline">
+                <a href={emailHref} className="text-sm sm:text-base font-medium text-[#0071e3] hover:underline">
                   sales@fincore.kz
                 </a>
               </div>
               <div>
                 <div className="text-[11px] sm:text-xs uppercase tracking-wider text-[#86868b] mb-0.5">WhatsApp</div>
-                <a href="https://wa.me/77477359572" target="_blank" rel="noopener noreferrer" className="text-sm sm:text-base font-medium text-[#0071e3] hover:underline">
+                <a href={waHref} target="_blank" rel="noopener noreferrer" className="text-sm sm:text-base font-medium text-[#0071e3] hover:underline">
                   +7 747 735 95 72
                 </a>
               </div>
